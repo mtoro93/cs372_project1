@@ -1,0 +1,4 @@
+#!/bin/tcsh
+
+set portNum = $argv[1]
+python chatserver.py $portNum
